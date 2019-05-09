@@ -1,0 +1,13 @@
+.sidebar {
+	padding: 0 .5rem;
+	overflow-y: auto;
+	@media(min-width: 992px) {
+		padding-right: .25rem;
+		flex: 0 0 420px;
+		max-width: 420px;
+	}
+	&__header {
+		padding-top: .3rem;
+		padding-bottom: .3rem;
+	}
+}

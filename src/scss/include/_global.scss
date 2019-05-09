@@ -1,0 +1,11 @@
+a {
+	transition: 0.3s;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+html, body, .wrapper {
+	height: 100%;
+}
